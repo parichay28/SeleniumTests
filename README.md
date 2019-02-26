@@ -11,4 +11,4 @@ Task 3: Get the text in the body tag of all the frames from http://10.0.14.57:92
     - Import this repository in eclipse as maven project
     - Install testNG for eclipse plugin if not already installed.
     - Run the classes under src/test/java as TestNG test.
-    - View results in <your-path>/test-outputs
+    - View results in <your-path>/test-output

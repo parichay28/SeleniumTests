@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2207" started-at="2019-02-26T10:32:52Z" finished-at="2019-02-26T10:32:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2207" started-at="2019-02-26T10:32:52Z" finished-at="2019-02-26T10:32:54Z">
+      <class name="com.qainfotech.seleniumdemo.TestNestedFrames">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qainfotech.seleniumdemo.TestNestedFrames@6f7fd0e6]" name="setup" is-config="true" duration-ms="1021" started-at="2019-02-26T10:32:52Z" finished-at="2019-02-26T10:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNestedFrames(java.util.List)[pri:0, instance:com.qainfotech.seleniumdemo.TestNestedFrames@6f7fd0e6]" name="testNestedFrames" duration-ms="1001" started-at="2019-02-26T10:32:53Z" data-provider="expectedBodyTexts" finished-at="2019-02-26T10:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LEFT, MIDDLE, RIGHT, BOTTOM]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNestedFrames -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qainfotech.seleniumdemo.TestNestedFrames@6f7fd0e6]" name="teardown" is-config="true" duration-ms="163" started-at="2019-02-26T10:32:54Z" finished-at="2019-02-26T10:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qainfotech.seleniumdemo.TestNestedFrames -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
